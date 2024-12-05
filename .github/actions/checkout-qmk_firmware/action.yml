@@ -20,7 +20,7 @@ runs:
       path: ${{ inputs.path }}
       repository: vial-kb/vial-qmk
       submodules: recursive
-      ref: 'f19fa9854eeb6a59f88d1513f189be4da390d55b'
+      ref: 'fcf906657b9e2d22b409aa9f8587fd3535e9b853'
 
   - name: Setup QMK
     shell: bash
