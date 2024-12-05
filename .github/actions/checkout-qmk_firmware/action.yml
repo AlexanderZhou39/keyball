@@ -18,9 +18,8 @@ runs:
     uses: actions/checkout@v4
     with:
       path: ${{ inputs.path }}
-      repository: qmk/qmk_firmware
+      repository: vial-kb/vial-qmk
       submodules: recursive
-      ref: ${{ inputs.version }}
 
   - name: Setup QMK
     shell: bash
