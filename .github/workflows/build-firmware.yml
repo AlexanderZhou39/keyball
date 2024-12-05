@@ -23,7 +23,7 @@ jobs:
 
     runs-on: ubuntu-22.04
     container:
-      image: ghcr.io/qmk/qmk_cli@sha256:16c4916e95b99bf88d27b15aec8db409ee17265d1710287fde248c6666508966
+      image: ghcr.io/qmk/qmk_cli:latest
 
     steps:
 
